@@ -17,7 +17,7 @@ cd /opt/stack/devstack
 source /opt/stack/devstack/openrc admin admin
 ```
 
-## FIX OCTAVIA loadbalancer problems after rebbot
+## FIX OCTAVIA loadbalancer problems after reboot
 ```
 vi /etc/systemd/system/devstack@o-da.service
 
