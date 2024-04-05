@@ -1,4 +1,4 @@
-# openstack-devstack 
+# Openstack-devstack {Bobcat} release
 ## Install openstack with devstack on ubuntu 22.04 
 ```
 git clone https://opendev.org/openstack/devstack -b stable/2023.2
@@ -35,4 +35,3 @@ sudo ip addr add 172.24.4.1/24 dev br-ex
 sudo ip link set br-ex up
 ip route add  10.0.0.0/24 via 172.24.4.1
 ```
-# Openstack {Bobcat} release
